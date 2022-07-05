@@ -3,4 +3,84 @@ body {
   font-family: 'Lobster', cursive;
   font-family: 'Poppins', sans-serif;
   margin: 0;
+  padding: 0;
+}
+.heroSection {
+  height: 100vh;
+  background-image: url('../images/Hero-image.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+.heroTextBlock {
+  text-align: center;
+  color: #ffffff;
+  padding-top: 100px;
+}
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.btn {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #FF5959;
+  padding: 16px 24px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+}
+/* End of Hero Section  */
+
+/* Donate Today Section  */
+.donateTodaySec {}
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #121212;
+}
+.donateTodaySec p{
+  text-align: center;
+  color: #707070;
+}
+.donateAmount {
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+.amountOfDonate {
+  width: 25%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #FAFAFA;
+  border-radius: 5px;
+
+}
+.amountOfDonate p {
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #707070;
+}
+#fadeColor {
+  background-color: #FFEEEE;
+  border: 2px solid #FF5959;
+}
+#fadeColor p{
+  color: #FF5959;
 }
