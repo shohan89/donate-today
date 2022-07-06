@@ -24,7 +24,7 @@ h1 {
   font-weight: bold;
   margin-bottom: 0px;
 }
-p {
+.heroSubheading {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 300;
@@ -53,9 +53,13 @@ h2 {
   text-align: center;
   color: #121212;
 }
-.donateTodaySec p{
+.subHeading{
   text-align: center;
   color: #707070;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 50px;
 }
 .donateAmount {
   display: flex;
@@ -104,3 +108,41 @@ h2 {
 #donateBtn {
   margin-left: 44%;
 }
+/* End of Donate Today Section  */
+
+/* Donate Plan Section  */
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #121212;
+}
+.cardSubHeading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #707070;
+}
+.donatePlanCards {
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 100px;
+}
+.donateCard {
+  width: 100%;
+  margin: 20px;
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+#card1 {
+  background-color: #4f9da61e;
+}
+#card2 {
+  background-color: #ff595923;
+}
+#card3 {
+  background-color: #00ffee1a;
+}
+/* End of Donate Plan Section  */
